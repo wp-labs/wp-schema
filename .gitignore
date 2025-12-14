@@ -1,0 +1,21 @@
+# Rust build artifacts
+/target/
+
+# Lockfile (typically not committed for libraries)
+/Cargo.lock
+
+# IDE/editor settings
+/.idea/
+/.vscode/
+*.swp
+*.swo
+.run.gxl
+.report
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs & env
+*.log
+.env
+.env.*
