@@ -10,7 +10,7 @@ name = "wp_schema"
 orion-error = "0.5.5"
 orion_conf =  { version = "~0.3", features = ["toml"]}
 wp-log=    { package = "wp-log", git = "https://github.com/wp-labs/wp-infras",tag = "v0.5.10-beta" }
-wp-error = { package = "wp-error", git = "https://github.com/wp-labs/wp-infras",tag = "v0.5.10-beta" }
+wp-error = { package = "wp-error", git = "https://github.com/wp-labs/wp-infras",tag = "v0.6.0-alpha" }
 # 引入 schema 定义，兼容新版引擎的 proto/text 相关格式
 # Core dependencies
 anyhow = "~1.0"
