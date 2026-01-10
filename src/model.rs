@@ -1,5 +1,6 @@
 use educe::Educe;
 use serde::{Deserialize, Serialize};
+use wp_error::{ConfError, ConfReason, ConfResult};
 
 // ----------------- ClickHouse Engine -----------------
 
@@ -124,7 +125,7 @@ use std::str::FromStr;
 use winnow::Parser;
 use winnow::error::{ContextError, ErrMode};
 use winnow::token::take_while;
-use wp_error::config_error::{ConfError, ConfReason, ConfResult};
+//use wp_error::config_error::{ConfError, ConfReason, ConfResult};
 
 #[derive(Debug, Eq, PartialEq)]
 pub enum FieldType {
