@@ -7,7 +7,7 @@ edition = "2024"
 name = "wp_schema"
 
 [dependencies]
-orion-error = "0.5"
+orion-error = "0.6"
 orion_conf =  "0.4"
 wp-log=    "0.1"
 wp-error = "0.7"
