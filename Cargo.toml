@@ -10,7 +10,7 @@ name = "wp_schema"
 orion-error = "0.5"
 orion_conf =  "0.4"
 wp-log=    "0.1"
-wp-error = "0.7"
+wp-error = "0.8"
 # 引入 schema 定义，兼容新版引擎的 proto/text 相关格式
 # Core dependencies
 anyhow = "1.0"
